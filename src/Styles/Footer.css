@@ -1,0 +1,12 @@
+.footer-div{
+    color: white;
+   text-align: center;
+    height: 1rem;
+    margin: 2rem;
+}
+
+@media(max-width:375px){
+    .footer-text{
+        font-size: 0.7rem;
+    }
+}

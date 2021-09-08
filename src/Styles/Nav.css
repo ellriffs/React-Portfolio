@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mandali&display=swap');
+.menu-title{
+    font-family:'Mandali' ;
+    font-weight: lighter;
+    text-align: left;
+    margin: 10px;
+    font-size: 3rem;
+    margin: 10px;
+}
+
+
+.Navbar-div{
+    display: flex;
+    flex-direction: row;
+    display: inline;
+    justify-content: center;
+    color: white;
+    
+}
+.menu-title:hover{
+  opacity: 0.8;
+}
+
+.Nav-list{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: right;
+    line-height: 4rem;
+    font-size: 2.5rem;
+    color: white;
+    list-style: none;
+}
+.Github_Nav{
+    color: white;
+}
+.Linkedin_Nav{
+    color: white;
+}
+
+.Twitter_Nav{
+    color: white;
+}
+
+.Gmail:hover{
+    color: white;
+}
+
+.Github_Nav:hover{
+    opacity: 0.8;
+}
+
+.Linkedin_Nav:hover{
+    opacity: 0.8;
+}
+
+.Twitter_Nav:hover{
+    opacity: 0.8;
+}
+
+.Gmail:hover{
+    opacity: 0.8;
+}
+@media (max-width: 504px){
+    .Nav-list{
+        justify-content: space-evenly;
+        width: 100vw;
+        font-size: 1.5rem;
+        padding: 0px;
+    }
+    .menu-title{
+        font-size: 1.5rem;
+        margin: 25px;
+    }
+}
